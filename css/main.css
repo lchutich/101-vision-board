@@ -11,6 +11,9 @@ Body	{
 	overflow: auto;
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
+	font-size: 20px;
+	margin: 50px auto;
+	font-weight: 700;
 	}
 
 .block	{
@@ -21,10 +24,12 @@ Body	{
 
 .small-block	{
 	height: 210px;
+	padding: 20px 40px;
 }
 
 .large-block	{
 	height: 430px;
+	padding: 70px 40px;
 }
 
 .center	{
@@ -34,4 +39,40 @@ Body	{
 .right {
 text-align: right;
 }
+
+.light-bg	{
+	background-color: #ffffff;
+}
+
+.dark-bg	{
+	background-color: #3b3b3b;
+	color: #ffffff;
+}
+
+.marker{
+	font-family: 'Permanent Marker', cursive;
+	font-weight: normal;
+}
+
+.highlight	{
+	background-color: #fff44f;
+	padding: 5px 15px;
+	font-size: 18px;
+}
+
+strong	{
+	font-size: 38px;
+	text-transform: none;
+	line-height: 38px;
+}
+
+.title	{
+	margin: 10px 0;
+	font-size: 30px;
+}
+
+.top-padding	{
+	padding-top: 40px;
+}
+
 
